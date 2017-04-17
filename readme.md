@@ -5,4 +5,4 @@ ios常用功能集合（本地邮件,本地短信,拨打电话,获取联系人,�
 支持swift3.0
 
 
- ![image](https://github.com/RainLocalCollection/master/gif.jpg)
+ ![image](https://github.com/RainLocalCollection/raw/master/image/gif.gif)
