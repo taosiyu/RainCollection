@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D7B70261EA45F85000162B2 /* TSYProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B70251EA45F85000162B2 /* TSYProgressView.swift */; };
+		7D7B70651EA4A8D8000162B2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7B70641EA4A8D8000162B2 /* MapViewController.swift */; };
+		7D8C092D1EA07CB300860237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C092C1EA07CB300860237 /* AppDelegate.swift */; };
+		7D8C092F1EA07CB300860237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C092E1EA07CB300860237 /* ViewController.swift */; };
+		7D8C09321EA07CB300860237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8C09301EA07CB300860237 /* Main.storyboard */; };
+		7D8C09341EA07CB300860237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D8C09331EA07CB300860237 /* Assets.xcassets */; };
+		7D8C09371EA07CB300860237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8C09351EA07CB300860237 /* LaunchScreen.storyboard */; };
+		7D8C09421EA07CB300860237 /* RainPhoneLocalFuncsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C09411EA07CB300860237 /* RainPhoneLocalFuncsTests.swift */; };
+		7D8C094D1EA07CB300860237 /* RainPhoneLocalFuncsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C094C1EA07CB300860237 /* RainPhoneLocalFuncsUITests.swift */; };
+		7D8C095C1EA07F8D00860237 /* RainMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C095B1EA07F8C00860237 /* RainMailViewController.swift */; };
+		7D8C095F1EA0A38600860237 /* RainMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C095E1EA0A38600860237 /* RainMessageViewController.swift */; };
+		7D8C09621EA0A9B300860237 /* RainPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C09611EA0A9B300860237 /* RainPhone.swift */; };
+		7D8C09651EA0AE5200860237 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C09641EA0AE5200860237 /* ContactsTableViewController.swift */; };
+		7D8C09671EA0AE6E00860237 /* ContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C09661EA0AE6E00860237 /* ContactsManager.swift */; };
+		7D8C096A1EA0BDD600860237 /* RainMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C09691EA0BDD600860237 /* RainMotionManager.swift */; };
+		7D8C096C1EA0C12700860237 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C096B1EA0C12700860237 /* DemoViewController.swift */; };
+		7D8C096F1EA0D18C00860237 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C096E1EA0D18C00860237 /* BluetoothManager.swift */; };
+		7D8C09721EA2252B00860237 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C09711EA2252B00860237 /* WKWebViewController.swift */; };
+		7D8C09741EA44DE300860237 /* BlueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C09731EA44DE300860237 /* BlueTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D8C093E1EA07CB300860237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D8C09211EA07CB300860237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8C09281EA07CB300860237;
+			remoteInfo = RainPhoneLocalFuncs;
+		};
+		7D8C09491EA07CB300860237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D8C09211EA07CB300860237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8C09281EA07CB300860237;
+			remoteInfo = RainPhoneLocalFuncs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D7B70251EA45F85000162B2 /* TSYProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSYProgressView.swift; sourceTree = "<group>"; };
+		7D7B70641EA4A8D8000162B2 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7D8C09291EA07CB300860237 /* RainPhoneLocalFuncs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainPhoneLocalFuncs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8C092C1EA07CB300860237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D8C092E1EA07CB300860237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D8C09311EA07CB300860237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D8C09331EA07CB300860237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D8C09361EA07CB300860237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D8C09381EA07CB300860237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8C093D1EA07CB300860237 /* RainPhoneLocalFuncsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainPhoneLocalFuncsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8C09411EA07CB300860237 /* RainPhoneLocalFuncsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainPhoneLocalFuncsTests.swift; sourceTree = "<group>"; };
+		7D8C09431EA07CB300860237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8C09481EA07CB300860237 /* RainPhoneLocalFuncsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainPhoneLocalFuncsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8C094C1EA07CB300860237 /* RainPhoneLocalFuncsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainPhoneLocalFuncsUITests.swift; sourceTree = "<group>"; };
+		7D8C094E1EA07CB300860237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8C095B1EA07F8C00860237 /* RainMailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainMailViewController.swift; sourceTree = "<group>"; };
+		7D8C095E1EA0A38600860237 /* RainMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainMessageViewController.swift; sourceTree = "<group>"; };
+		7D8C09611EA0A9B300860237 /* RainPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainPhone.swift; sourceTree = "<group>"; };
+		7D8C09641EA0AE5200860237 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		7D8C09661EA0AE6E00860237 /* ContactsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsManager.swift; sourceTree = "<group>"; };
+		7D8C09691EA0BDD600860237 /* RainMotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RainMotionManager.swift; sourceTree = "<group>"; };
+		7D8C096B1EA0C12700860237 /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		7D8C096E1EA0D18C00860237 /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		7D8C09711EA2252B00860237 /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		7D8C09731EA44DE300860237 /* BlueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D8C09261EA07CB300860237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8C093A1EA07CB300860237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8C09451EA07CB300860237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D7B70611EA4A3F2000162B2 /* MyMap */ = {
+			isa = PBXGroup;
+			children = (
+				7D7B70641EA4A8D8000162B2 /* MapViewController.swift */,
+			);
+			path = MyMap;
+			sourceTree = "<group>";
+		};
+		7D8C09201EA07CB200860237 = {
+			isa = PBXGroup;
+			children = (
+				7D8C092B1EA07CB300860237 /* RainPhoneLocalFuncs */,
+				7D8C09401EA07CB300860237 /* RainPhoneLocalFuncsTests */,
+				7D8C094B1EA07CB300860237 /* RainPhoneLocalFuncsUITests */,
+				7D8C092A1EA07CB300860237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D8C092A1EA07CB300860237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D8C09291EA07CB300860237 /* RainPhoneLocalFuncs.app */,
+				7D8C093D1EA07CB300860237 /* RainPhoneLocalFuncsTests.xctest */,
+				7D8C09481EA07CB300860237 /* RainPhoneLocalFuncsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D8C092B1EA07CB300860237 /* RainPhoneLocalFuncs */ = {
+			isa = PBXGroup;
+			children = (
+				7D7B70611EA4A3F2000162B2 /* MyMap */,
+				7D8C09701EA2250000860237 /* WKWebView */,
+				7D8C096D1EA0D16900860237 /* Bluetooth */,
+				7D8C09681EA0BCD000860237 /* Motion */,
+				7D8C09631EA0AE3500860237 /* Contacts */,
+				7D8C09601EA0A98A00860237 /* Phone */,
+				7D8C095D1EA0A36600860237 /* Message */,
+				7D8C095A1EA07CC400860237 /* Mail */,
+				7D8C092C1EA07CB300860237 /* AppDelegate.swift */,
+				7D8C092E1EA07CB300860237 /* ViewController.swift */,
+				7D8C09301EA07CB300860237 /* Main.storyboard */,
+				7D8C09331EA07CB300860237 /* Assets.xcassets */,
+				7D8C09351EA07CB300860237 /* LaunchScreen.storyboard */,
+				7D8C09381EA07CB300860237 /* Info.plist */,
+			);
+			path = RainPhoneLocalFuncs;
+			sourceTree = "<group>";
+		};
+		7D8C09401EA07CB300860237 /* RainPhoneLocalFuncsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D8C09411EA07CB300860237 /* RainPhoneLocalFuncsTests.swift */,
+				7D8C09431EA07CB300860237 /* Info.plist */,
+			);
+			path = RainPhoneLocalFuncsTests;
+			sourceTree = "<group>";
+		};
+		7D8C094B1EA07CB300860237 /* RainPhoneLocalFuncsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7D8C094C1EA07CB300860237 /* RainPhoneLocalFuncsUITests.swift */,
+				7D8C094E1EA07CB300860237 /* Info.plist */,
+			);
+			path = RainPhoneLocalFuncsUITests;
+			sourceTree = "<group>";
+		};
+		7D8C095A1EA07CC400860237 /* Mail */ = {
+			isa = PBXGroup;
+			children = (
+				7D8C095B1EA07F8C00860237 /* RainMailViewController.swift */,
+			);
+			path = Mail;
+			sourceTree = "<group>";
+		};
+		7D8C095D1EA0A36600860237 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				7D8C095E1EA0A38600860237 /* RainMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		7D8C09601EA0A98A00860237 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				7D8C09611EA0A9B300860237 /* RainPhone.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		7D8C09631EA0AE3500860237 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				7D8C09661EA0AE6E00860237 /* ContactsManager.swift */,
+				7D8C09641EA0AE5200860237 /* ContactsTableViewController.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		7D8C09681EA0BCD000860237 /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				7D8C09691EA0BDD600860237 /* RainMotionManager.swift */,
+				7D8C096B1EA0C12700860237 /* DemoViewController.swift */,
+			);
+			path = Motion;
+			sourceTree = "<group>";
+		};
+		7D8C096D1EA0D16900860237 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				7D8C096E1EA0D18C00860237 /* BluetoothManager.swift */,
+				7D8C09731EA44DE300860237 /* BlueTableViewController.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		7D8C09701EA2250000860237 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				7D8C09711EA2252B00860237 /* WKWebViewController.swift */,
+				7D7B70251EA45F85000162B2 /* TSYProgressView.swift */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D8C09281EA07CB300860237 /* RainPhoneLocalFuncs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8C09511EA07CB300860237 /* Build configuration list for PBXNativeTarget "RainPhoneLocalFuncs" */;
+			buildPhases = (
+				7D8C09251EA07CB300860237 /* Sources */,
+				7D8C09261EA07CB300860237 /* Frameworks */,
+				7D8C09271EA07CB300860237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainPhoneLocalFuncs;
+			productName = RainPhoneLocalFuncs;
+			productReference = 7D8C09291EA07CB300860237 /* RainPhoneLocalFuncs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D8C093C1EA07CB300860237 /* RainPhoneLocalFuncsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8C09541EA07CB300860237 /* Build configuration list for PBXNativeTarget "RainPhoneLocalFuncsTests" */;
+			buildPhases = (
+				7D8C09391EA07CB300860237 /* Sources */,
+				7D8C093A1EA07CB300860237 /* Frameworks */,
+				7D8C093B1EA07CB300860237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D8C093F1EA07CB300860237 /* PBXTargetDependency */,
+			);
+			name = RainPhoneLocalFuncsTests;
+			productName = RainPhoneLocalFuncsTests;
+			productReference = 7D8C093D1EA07CB300860237 /* RainPhoneLocalFuncsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D8C09471EA07CB300860237 /* RainPhoneLocalFuncsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8C09571EA07CB300860237 /* Build configuration list for PBXNativeTarget "RainPhoneLocalFuncsUITests" */;
+			buildPhases = (
+				7D8C09441EA07CB300860237 /* Sources */,
+				7D8C09451EA07CB300860237 /* Frameworks */,
+				7D8C09461EA07CB300860237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D8C094A1EA07CB300860237 /* PBXTargetDependency */,
+			);
+			name = RainPhoneLocalFuncsUITests;
+			productName = RainPhoneLocalFuncsUITests;
+			productReference = 7D8C09481EA07CB300860237 /* RainPhoneLocalFuncsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D8C09211EA07CB300860237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TSY;
+				TargetAttributes = {
+					7D8C09281EA07CB300860237 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = FM2397CJ78;
+						ProvisioningStyle = Automatic;
+					};
+					7D8C093C1EA07CB300860237 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D8C09281EA07CB300860237;
+					};
+					7D8C09471EA07CB300860237 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7D8C09281EA07CB300860237;
+					};
+				};
+			};
+			buildConfigurationList = 7D8C09241EA07CB300860237 /* Build configuration list for PBXProject "RainPhoneLocalFuncs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D8C09201EA07CB200860237;
+			productRefGroup = 7D8C092A1EA07CB300860237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D8C09281EA07CB300860237 /* RainPhoneLocalFuncs */,
+				7D8C093C1EA07CB300860237 /* RainPhoneLocalFuncsTests */,
+				7D8C09471EA07CB300860237 /* RainPhoneLocalFuncsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D8C09271EA07CB300860237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8C09371EA07CB300860237 /* LaunchScreen.storyboard in Resources */,
+				7D8C09341EA07CB300860237 /* Assets.xcassets in Resources */,
+				7D8C09321EA07CB300860237 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8C093B1EA07CB300860237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8C09461EA07CB300860237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D8C09251EA07CB300860237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8C095F1EA0A38600860237 /* RainMessageViewController.swift in Sources */,
+				7D8C095C1EA07F8D00860237 /* RainMailViewController.swift in Sources */,
+				7D8C09651EA0AE5200860237 /* ContactsTableViewController.swift in Sources */,
+				7D8C09741EA44DE300860237 /* BlueTableViewController.swift in Sources */,
+				7D7B70261EA45F85000162B2 /* TSYProgressView.swift in Sources */,
+				7D8C096C1EA0C12700860237 /* DemoViewController.swift in Sources */,
+				7D8C096F1EA0D18C00860237 /* BluetoothManager.swift in Sources */,
+				7D8C092F1EA07CB300860237 /* ViewController.swift in Sources */,
+				7D8C092D1EA07CB300860237 /* AppDelegate.swift in Sources */,
+				7D8C096A1EA0BDD600860237 /* RainMotionManager.swift in Sources */,
+				7D8C09621EA0A9B300860237 /* RainPhone.swift in Sources */,
+				7D8C09671EA0AE6E00860237 /* ContactsManager.swift in Sources */,
+				7D8C09721EA2252B00860237 /* WKWebViewController.swift in Sources */,
+				7D7B70651EA4A8D8000162B2 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8C09391EA07CB300860237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8C09421EA07CB300860237 /* RainPhoneLocalFuncsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D8C09441EA07CB300860237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8C094D1EA07CB300860237 /* RainPhoneLocalFuncsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D8C093F1EA07CB300860237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D8C09281EA07CB300860237 /* RainPhoneLocalFuncs */;
+			targetProxy = 7D8C093E1EA07CB300860237 /* PBXContainerItemProxy */;
+		};
+		7D8C094A1EA07CB300860237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D8C09281EA07CB300860237 /* RainPhoneLocalFuncs */;
+			targetProxy = 7D8C09491EA07CB300860237 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D8C09301EA07CB300860237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D8C09311EA07CB300860237 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D8C09351EA07CB300860237 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D8C09361EA07CB300860237 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D8C094F1EA07CB300860237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D8C09501EA07CB300860237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D8C09521EA07CB300860237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FM2397CJ78;
+				INFOPLIST_FILE = RainPhoneLocalFuncs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsy.RainPhoneLocalFuncs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7D8C09531EA07CB300860237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FM2397CJ78;
+				INFOPLIST_FILE = RainPhoneLocalFuncs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsy.RainPhoneLocalFuncs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7D8C09551EA07CB300860237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RainPhoneLocalFuncsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsy.RainPhoneLocalFuncsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainPhoneLocalFuncs.app/RainPhoneLocalFuncs";
+			};
+			name = Debug;
+		};
+		7D8C09561EA07CB300860237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RainPhoneLocalFuncsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsy.RainPhoneLocalFuncsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainPhoneLocalFuncs.app/RainPhoneLocalFuncs";
+			};
+			name = Release;
+		};
+		7D8C09581EA07CB300860237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RainPhoneLocalFuncsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsy.RainPhoneLocalFuncsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RainPhoneLocalFuncs;
+			};
+			name = Debug;
+		};
+		7D8C09591EA07CB300860237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RainPhoneLocalFuncsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tsy.RainPhoneLocalFuncsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RainPhoneLocalFuncs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D8C09241EA07CB300860237 /* Build configuration list for PBXProject "RainPhoneLocalFuncs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8C094F1EA07CB300860237 /* Debug */,
+				7D8C09501EA07CB300860237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8C09511EA07CB300860237 /* Build configuration list for PBXNativeTarget "RainPhoneLocalFuncs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8C09521EA07CB300860237 /* Debug */,
+				7D8C09531EA07CB300860237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8C09541EA07CB300860237 /* Build configuration list for PBXNativeTarget "RainPhoneLocalFuncsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8C09551EA07CB300860237 /* Debug */,
+				7D8C09561EA07CB300860237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8C09571EA07CB300860237 /* Build configuration list for PBXNativeTarget "RainPhoneLocalFuncsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D8C09581EA07CB300860237 /* Debug */,
+				7D8C09591EA07CB300860237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D8C09211EA07CB300860237 /* Project object */;
+}
